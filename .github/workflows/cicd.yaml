@@ -84,7 +84,7 @@ jobs:
         uses: actions/download-artifacts@v4
         with:
           name: build-artifacts
-          path: /dist
+          path: dist/
       - name: Sest up Docker Buildx
         uses: docker/setup-buildx-action@v3
 
