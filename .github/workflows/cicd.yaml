@@ -28,7 +28,7 @@ jobs:
         run: npm test || echo "No test found, would add int the real project"
   lint:
     name: Static code analaysis 
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps: 
       - name: Checkout code 
         uses: actions/checkout@v4
